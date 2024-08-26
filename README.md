@@ -75,7 +75,8 @@ To configure the project, you need to set up Firebase:
 
 For a detailed video demonstration:
 
-https://github.com/user-attachments/assets/7356b725-801c-4c40-8d91-4a740aad8530
+https://github.com/user-attachments/assets/65a05551-4c78-4257-9ec4-13fcd154a2df
+
 
 ## License
 Copyright (c) 2024 Yarin Manoah | Amir Monayer
