@@ -1,9 +1,11 @@
 # AllEvents iOS App
 ![image](https://github.com/user-attachments/assets/3ddd42bf-60b0-4bb4-804a-0526b0c68478)
 
-  The idea is to create an application that has the goal of connecting people who want to play board games/sports/gaming based on location and distance.
-  AllEvents is an iOS application that allows exactly that.
-  Users can:
+The idea is to create an application that has the goal of connecting people who want to play board games/sports/gaming based on location and distance.
+
+AllEvents is an iOS application that allows exactly that.
+
+Users can:
 1. Grant location access.
 2. Register or log in.
 3. View a list of nearby events with search and filter options.
