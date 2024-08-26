@@ -1,7 +1,8 @@
 # AllEvents iOS App
 ![image](https://github.com/user-attachments/assets/3ddd42bf-60b0-4bb4-804a-0526b0c68478)
 
-AllEvents is an iOS application that allows connecting people who want to play board games, sports, or video games based on location and distance.
+The idea is to create an application that has the goal of connecting people who want to play board games/sports/gaming based on location and distance.
+AllEvents is an iOS application that allows exactly that.
 Users can:
 1. Grant location access.
 2. Register or log in.
@@ -13,20 +14,22 @@ Users can:
 
 
 ## Features
+Here’s a structured outline of your app idea:
 
-The idea is to create an application that has the goal of connecting people who want to play board games/sports/gaming based on location and distance.
-On the first screen, we will ask the user for permission to receive his location.
-Then registration/login
-When the user connects, he is shown a list with all the events that exist, arranged according to the distance from him.
- on the same screen there will be a search + filters by category.
-By clicking on the event, the user will be shown:
-	- the details of the event.
-	- number of participants.
-	- who is participating.
-	- the location of the event on a map.
-	-it will also be possible to share the event in messages | Email and of course the possibility to confirm his 	arrival at the event.
-In addition, the user will be able to create an event himself on a dedicated screen, where he will enter the number of participants, a general description and a category selection, as part of the form a map will be opened to the user in which he will pin the location of the event.
-Another screen the user will have is the events he attends arranged by date.
+- **First Screen**: Request location permission from the user.
+- **Registration/Login**: User authentication process.
+- **Event Listing Screen**:
+  - Display events sorted by distance.
+  - Include search functionality and filters by category.
+- **Event Details**:
+  - Show event details, participant count, and list of participants.
+  - Display event location on a map.
+  - Options to share the event via messages or email.
+  - Ability to confirm attendance.
+- **Create Event**:
+  - User can create an event with participant count, description, and category selection.
+  - Map integration for pinning event location.
+- **User's Events Screen**: Display events the user is attending, sorted by date.
 
 ## Firebase Integration
 
