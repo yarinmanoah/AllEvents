@@ -41,9 +41,6 @@ This app uses Firebase for the following functionalities:
 - Backup and transfer data between users with Firebase – Storage/Realtime DB.
 - Firebase Images upload 
 
-### Animation
-
-Lottie is used for the Animation of the app.
 
 ### Authentication
 
@@ -57,9 +54,14 @@ Firebase Realtime Database is used to store user data, including events and user
 
 Firebase Storage is used to store user profile pictures.
 
+
 ## Shared Preferences
 
 Shared Preferences are used to store user data locally on the device, providing a faster way to access user information without always querying the database.
+
+## Animation
+
+Lottie is used for the Animation of the app.
 
 ## Project Structure
 ![image](https://github.com/user-attachments/assets/ea5058cc-d758-4288-afab-04c1f1c2a5bb)
@@ -106,7 +108,6 @@ Here’s a structured list of the extensions we've created so it will be easy fo
 - **NavigationManager**: Handles navigation by opening navigation apps (e.g., Maps, Google Maps, Waze) to the selected event location.
 - **SigninManager**: Responsible for API calls related to sign-in and sign-up processes.
 - **EventsManager**: Manages event-related API calls, including attending, unattending, retrieving events, and creating new events.
-
 
 - **Add Event Button**:
   - Located on the top right.
