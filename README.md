@@ -41,6 +41,9 @@ This app uses Firebase for the following functionalities:
 - Backup and transfer data between users with Firebase – Storage/Realtime DB.
 - Firebase Images upload 
 
+### Animation
+
+Lottie is used for the Animation of the app.
 
 ### Authentication
 
@@ -75,6 +78,52 @@ To configure the project, you need to set up Firebase:
 
 1. Open the project in Xcode.
 2. Build and run the project on a simulator or a physical device.
+
+## Code Overview
+Here’s a structured list of the extensions we've created so it will be easy for us to perform certain actions:
+
+- **String+Email**: 
+  - Extension for email validation in `String`.
+
+- **UIView+FirstResponder**: 
+  - Variable to identify the currently focused component.
+
+- **UIImageView+LoadFromUrl**: 
+  - Loads images from a URL without blocking the main thread.
+
+- **UIViewController+Alert**: 
+  - Allows any view controller to display an alert with a custom message.
+
+- **UIViewController+Loading**: 
+  - Provides the ability to show/hide a loading animation in any view controller.
+
+- **AllEventScrollableBaseViewController**: 
+  - A base class for forms in the app, automatically adjusts scrolling when the keyboard appears to ensure the focused `TextField` remains visible above the keyboard.
+
+## Helper Classes Overview:
+
+- **ShareManager**: Manages sharing functionality, opening an AlertController for sharing events.
+- **NavigationManager**: Handles navigation by opening navigation apps (e.g., Maps, Google Maps, Waze) to the selected event location.
+- **SigninManager**: Responsible for API calls related to sign-in and sign-up processes.
+- **EventsManager**: Manages event-related API calls, including attending, unattending, retrieving events, and creating new events.
+
+
+- **Add Event Button**:
+  - Located on the top right.
+  - Opens a form with necessary fields and a map.
+  - Clicking the map opens a full-screen view for address search or pin placement.
+  - The map interaction returns a point and address.
+  - The form includes validation.
+  - After form submission, an event is created, and the user is added as a participant.
+
+- **Event Details Screen**:
+  - Displays event information and a map.
+  - **Share Button**: Opens an ActivityController for sharing the event via available apps.
+  - **Navigation Button**: Offers navigation options via Maps/Google Maps/Waze.
+  - **RSVP Button**: 
+    - If not registered: "I'm In" button registers the user.
+    - If registered: "I'm Out" button cancels the registration.
+
 
 ## Video Demonstration
 
